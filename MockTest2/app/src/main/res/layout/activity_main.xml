@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/ED1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="target amount"
+        />
+
+    <EditText
+        android:id="@+id/ED2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="current savings"
+        />
+
+    <EditText
+        android:id="@+id/ED3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="time frame in months"
+        />
+
+    <Button
+        android:id="@+id/BNT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calc" />
+
+
+    <TextView
+        android:id="@+id/reeeeeeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result = "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
